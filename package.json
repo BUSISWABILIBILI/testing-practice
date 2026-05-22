@@ -1,20 +1,17 @@
 {
   "name": "testing-practice",
   "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "description": "JavaScript testing practice using Jest",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
   "devDependencies": {
-    "@babel/preset-env": "^7.29.5",
-    "babel-jest": "^30.4.1",
-    "jest": "^30.4.2"
+    "@babel/preset-env": "^7.0.0",
+    "babel-jest": "^30.0.0",
+    "jest": "^30.0.0"
   }
 }
